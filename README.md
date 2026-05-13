@@ -4,13 +4,20 @@ Simple overview of use/purpose.
 
 ## Usage
 
-Open the codespace, and launch start.sh:
+Open the codespace, and install the dependencies:
+```bash
+python -m venv .venv # creates a virtual environment
+source .venv/bin/activate # activate the venv
+pip install -r requirements.txt # install dependencies
+``` 
+
+then, launch start.sh:
 
 ```bash
 bash start.sh
 ```
 
-Then open the website at the port. You will get to this screen:
+Then open the website at the port `6080`. You will get to this screen:
 ![alt text](readme-assets/image.png)
 
 Open `vnc.html` and connect to your vnc. 
